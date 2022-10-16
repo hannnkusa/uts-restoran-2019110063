@@ -254,7 +254,7 @@
 
             <div class="d-flex align-items-center justify-content-between">
                 <div class="chef-image ml-auto">
-                    <img src="../img/chefs/chefs1.png" alt="">
+                    <img src="../img/chefs.png" alt="">
                     <div class="chef-card-exp">
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon"><img src="../icon/Shield Done.svg" alt=""></div>
