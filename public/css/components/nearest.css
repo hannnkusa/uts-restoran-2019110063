@@ -1,0 +1,149 @@
+.nearest .nearest-head {
+  margin-bottom: 3rem;
+}
+
+.nearest .has-select {
+  white-space: nowrap;
+}
+
+.nearest .has-select .form-control {
+  cursor: pointer;
+  width: 252px;
+  height: 64px;
+  
+  background-image: url("../../icon/Arrow\ -\ Down\ 2.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position-x: 212px !important;
+  background-position-y: 30px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background: #F2F2F2;
+  border-radius: 12px;
+  border: none;
+  padding-left: 54px;
+}
+
+.nearest .has-select .form-control option {
+  background: #FFFFFF;
+  border: none;
+}
+
+.nearest .has-select .form-icon-left {
+  position: absolute;
+  z-index: 2;
+  display: inline-block;
+  line-height: 56px;
+  text-align: center;
+  pointer-events: none;
+  padding-left: 24px;
+  vertical-align: middle;
+}
+
+.nearest .has-select .form-icon-left img {
+  padding: 20px 0 20px 0;
+}
+
+.nearest .nearest-body {
+  gap: 20px;
+}
+
+.nearest .nearest-image {
+  cursor: pointer;
+  width: 100%;
+  height: 60vh;
+}
+
+.nearest .nearest-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.nearest .nearest-image .card {
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 24px;
+  border: none;
+  bottom: 24px;
+  width: calc(100% - 48px);
+  margin: 0 24px 0 24px;
+}
+
+.nearest .nearest-image .card .card-body {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #656565;
+  padding: 24px;
+}
+
+.nearest .nearest-image .card .card-body img {
+  width: auto;
+  height: auto;
+  position: static;
+}
+
+.nearest .nearest-image .card .card-body .card-rating img {
+  width: 1.125rem;
+}
+
+.nearest .nearest-image .card .card-body .card-rating .restaurant-star {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFB800;
+}
+
+.nearest .nearest-image .card .card-body .card-rating .restaurant-rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nearest .nearest-image .card .card-body .restaurant-name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #232631;
+}
+
+.nearest .nearest-image .card .card-body .restaurant-price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.nearest .nearest-image .card .card-body .restaurant-location {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nearest .nearest-image .card .card-body .btn-restaurant {
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #FDC886;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  transition: all 0.4s;
+}
+
+.nearest .nearest-image .card .card-body .btn-restaurant i {
+  font-weight: 400;
+  font-size: 24px;
+  color: #232631;
+  line-height: 0;
+}
+
+.nearest .nearest-image:hover .card .card-body .btn-restaurant {
+  background: #fadeb9;
+  color: #232631;
+}
+
+.nearest .near-bottom {
+  margin-top: 56px;
+}

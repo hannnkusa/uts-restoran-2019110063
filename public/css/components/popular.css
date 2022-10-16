@@ -1,0 +1,119 @@
+
+.popular .popular-card {
+  margin-right: 85px;
+}
+
+.popular .popular-card .section-title p {
+  width: 340px;
+}
+
+.popular .popular-card .btn-popular {
+  margin-top: 56px;
+}
+
+.popular .popular-image {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  height: 760px;
+  margin-right: 20px;
+}
+
+.popular .popular-image:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.popular .popular-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.popular .active {
+  max-width: 600px;
+}
+
+.popular .popular-image .card {
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 24px;
+  border: none;
+  bottom: 24px;
+  width: calc(100% - 48px);
+  margin: 0 24px 0 24px;
+}
+
+.popular .popular-image .card .card-body {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #656565;
+  padding: 24px;
+}
+
+.popular .popular-image .card .card-body img {
+  width: auto;
+  height: auto;
+  position: static;
+}
+
+.popular .popular-image .card .card-body .card-rating img {
+  width: 1.125rem;
+}
+
+.popular .popular-image .card .card-body .card-rating .restaurant-star {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFB800;
+}
+
+.popular .popular-image .card .card-body .card-rating .restaurant-rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.popular .popular-image .card .card-body .restaurant-name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #232631;
+}
+
+.popular .popular-image .card .card-body .restaurant-price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.popular .popular-image .card .card-body .restaurant-location {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.popular .popular-image .card .card-body .btn-restaurant {
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #FDC886;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  transition: all 0.4s;
+}
+
+.popular .popular-image .card .card-body .btn-restaurant i {
+  font-weight: 400;
+  font-size: 24px;
+  color: #232631;
+  line-height: 0;
+}
+
+.popular .popular-image:hover .card .card-body .btn-restaurant {
+  background: #fadeb9;
+  color: #232631;
+}

@@ -1,0 +1,66 @@
+.why-us {
+  margin-top: 41px;
+  gap: 30px
+}
+
+.why-us .why-us-card {
+  cursor: pointer;
+  background: #fff;
+  display: block;
+  height: 40vh;
+  width: 100%;
+  border-radius: 24px;
+}
+
+.why-us .icon {
+  background: #FDC88633;
+  border-radius: 54px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px auto;
+}
+
+.why-us .title {
+  margin-bottom: 12px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #232631;
+}
+
+.why-us .description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 48px 24px;
+  color: #656565;
+}
+
+.why-us .btn-footer {
+  position: absolute;
+  background: #FFF !important;
+  bottom: 0 !important;
+  padding: 0;
+  border: none;
+  border-radius: 12px 12px 24px 24px;
+  width: 100%;
+  max-width: none;
+  margin: auto;
+  height: 72px;
+}
+
+.why-us .why-us-card:hover .btn-footer {
+  background: #FDC886 !important;
+  bottom: 0;
+  margin-bottom: 0;
+  transition: all 0.5s;
+}

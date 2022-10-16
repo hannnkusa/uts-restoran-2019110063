@@ -1,0 +1,242 @@
+.chef .chef-image {
+  height: calc(848px * 1.2);
+  margin-left: 60px;
+  left: 0;
+  margin-right: 8rem;
+}
+
+.chef .chef-image img {
+  width: calc(560px * 1.2);
+  height: 100%;
+  object-fit: cover;
+  object-position: 110%;
+  border-radius: 24px;
+}
+
+.chef .chef-image .card {
+  cursor: pointer;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: -8px 8px 25px rgba(102, 102, 102, 0.04);
+  border-radius: 24px;
+  border: none;
+  bottom: 40px;
+  width: 330px;
+  left: 0px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chef .chef-image .card .card-image {
+  width: 96px;
+  height: 132px;
+}
+
+.chef .chef-image .card .card-image img {
+  width: 96px;
+  height: 132px;
+  border-radius: 12px;
+}
+
+.chef .chef-image .card .card-body {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #656565;
+}
+
+.chef .chef-image .card .card-body img {
+  width: auto;
+  height: auto;
+  position: static;
+}
+
+.chef .chef-image .card .card-body .card-rating .restaurant-star {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFB800;
+}
+
+.chef .chef-image .card .card-body .card-rating .restaurant-rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.chef .chef-image .card .card-body .restaurant-name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #232631;
+  margin-bottom: 24px;
+}
+
+.chef .chef-image .card .card-body .restaurant-price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.chef .chef-image .card .card-body .restaurant-location {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.chef .chef-image .card .card-body .btn-restaurant {
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #FDC886;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  transition: all 0.4s;
+}
+
+.chef .chef-image .card .card-body .btn-restaurant i {
+  font-weight: 400;
+  font-size: 24px;
+  color: #232631;
+  line-height: 0;
+}
+
+.chef .chef-image .chef-card-exp {
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 24px;
+  border: none;
+  top: 40px;
+  height: 203px;
+  left: calc(421px * 1.4);
+  padding: 30px 46px;
+  box-shadow: 8px 8px 25px rgba(102, 102, 102, 0.04);
+}
+
+.chef .chef-image .icon-box {
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.chef .chef-image .icon {
+  background: #FDC88633;
+  border-radius: 54px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.chef .chef-image .icon img {
+  height: 50px;
+  width: 50px;
+}
+
+.chef .chef-image .title {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #232631;
+}
+
+.chef .chef-image .description {
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #656565;
+}
+
+.chef .chef-image .btn-footer {
+  background: #FFF !important;
+  bottom: 0;
+  padding: 0;
+  border: none;
+  border-radius: 12px 12px 24px 24px;
+  width: 100%;
+}
+
+.chef-list {
+  width: 100%;
+}
+
+.chef-list .list {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.chef-list .list li {
+  cursor: pointer;
+  width: 100%;
+  height: 141px;
+  margin-top: 20px;
+  padding-left: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chef-list .list h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #656565;
+}
+
+.chef-list .list h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #232631;
+}
+
+.chef-list .list .view-details {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #FDC886;
+  visibility: hidden;
+  margin-right: 24px;
+}
+
+.chef-list .list .active>.view-details {
+  visibility: visible;
+}
+
+.chef-list .list .active {
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+.btn-bottom {
+  margin-top: 13rem;
+  bottom: 0;
+}
