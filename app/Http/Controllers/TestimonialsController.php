@@ -11,31 +11,41 @@ class TestimonialsController extends Controller
     {
         function prefixImg ($imgTitle)
         {
-            return "../images/testimony/{$imgTitle}.jpg";
+            return "../img/testimonials/testimonials-{$imgTitle}.jpg";
         }
 
-        $testimonies = [
+        $testimonials = [
             [
-                "result" => "Pelayanan disini cepat dan kualitas jangan diragukan. Siap melayani segala keperluan konsumen terutama dalam bidang otomotif. Pengerjannya cepat dan tim juga memberikan saran serta masukkan yang mengoptimalkan motor saya",
+                "testimony" => "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.",
                 "image" => prefixImg(1),
-                "name" => "BOY",
-                "nickname" => "boy"
+                "name" => "Saul Goodman",
+                "who" => "Ceo"
             ],
             [
-                "result" => "Mantap bos! Selalu rekomenin bengkel ini buat servis atau sekedar melakukan pengecekkan rutin kendaraan.
-                Pelayanan yang baik, harga yang bisa menyesuaikan dan optimal pengerjannya",
+                "testimony" => "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.",
                 "image" => prefixImg(2),
-                "name" => "ASEP",
-                "nickname" => "asep"
+                "name" => "Sara Wilsson",
+                "who" => "Designer"
             ],
             [
-                "result" => "Selalu balik lagi kesini kalau ada kendala di motor. Mekaniknya cepat tanggap dan memberikan masukkan kepada saya untuk aware sama kendaraan.
-                Mau modif pun dibantu sampai berfungsi dengan baik. Sukses selalu bengel ABC!",
+                "testimony" => "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.",
                 "image" => prefixImg(3),
-                "name" => "ANDI",
-                "nickname" => "andi"
-            ]
+                "name" => "Jena Karlis",
+                "who" => "Store Owner"
+            ],
+            [
+                "testimony" => "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.",
+                "image" => prefixImg(4),
+                "name" => "Matt Bradon",
+                "who" => "Freelancer"
+            ],
+            [
+                "testimony" => "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.",
+                "image" => prefixImg(5),
+                "name" => "John Larson",
+                "who" => "Entrepreneur"
+            ],
         ];
-        return view('testimonials', compact('testimonies'));
+        return view('testimonials', compact('testimonials'));
     }
 }
