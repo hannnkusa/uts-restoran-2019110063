@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 
 class TestimonialsController extends Controller
 {
-
-    public function __invoke(Request $request)
+    public function index()
     {
         function prefixImg ($imgTitle)
         {

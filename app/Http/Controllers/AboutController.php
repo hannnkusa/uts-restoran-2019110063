@@ -2,18 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class AboutController extends Controller
 {
-    public function __invoke()
+    public function index()
     {
-        function galleryPrefixImg ($imgTitle)
+        function galleryPrefixImg($imgTitle)
         {
             return "../img/gallery/gallery-{$imgTitle}.jpg";
         }
 
-        function chefPrefixImg ($imgTitle)
+        function chefPrefixImg($imgTitle)
         {
             return "../img/chefs/chefs-{$imgTitle}.jpg";
         }
