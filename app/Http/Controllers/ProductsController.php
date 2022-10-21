@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ProductsController extends Controller
 {
-    public function __invoke()
+    public function index()
     {
         function prefixSpecialImg ($imgTitle)
         {
