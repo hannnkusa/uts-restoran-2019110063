@@ -32,7 +32,7 @@
         <div class="d-flex align-items-center justify-content-between">
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto {{ Route::is('index') ? 'active' : '' }}" href="{{ route('index') }}">Home</a></li>
+                    <li><a class="nav-link scrollto {{ Route::is('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
                     <!-- <li class="dropdown"><a href="#"><span>Category</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#">Category 1</a></li>
@@ -71,7 +71,7 @@
                     </span>
                     <input type="text" class="form-control" placeholder="Search your favorite food">
                 </div>
-                <button class="btn btn-login">Login</a>
+                <a href="{{ route('login') }}" class="btn btn-login">Login</a>
             </div>
 
         </div>

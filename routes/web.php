@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
-// use App\Http\Controllers\IndexController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\TestimonialsController;
@@ -19,10 +17,15 @@ use App\Http\Controllers\TestimonialsController;
 */
 
 Route::get('/', function () {
-    return view('/index');
-})->name('index');
+    return view('index');
+})->name('home');
 
-// Route::get('/', IndexController::class)->name('index');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/products', [ProductsController::class, 'index'])->name('products');
 Route::get('/testimonials', [TestimonialsController::class, 'index'])->name('testimonials');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
